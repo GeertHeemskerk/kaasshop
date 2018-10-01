@@ -347,3 +347,7 @@ figure{
 li{
   display: block;
 }
+
+a:active{
+  color: black
+}
