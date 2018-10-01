@@ -15,9 +15,9 @@ body{
 }
 
 nav{
+  visibility: hidden;
   grid-column: -1 / 2;
   grid-row: 2;
-  display: hidden;
   width: 100%;
   height: 100vh;
 }
@@ -39,13 +39,14 @@ ul li a{
 }
 
 .closeMenu{
+  visibility: hidden;
   width: 36px;
   height: 46px;
   margin: 20px 20px 45px 20px;
 }
 
 main{
-  visibility: hidden;
+  visibility: visible;
   grid-area: main;
   height: 100vh;
   width: 100%;
