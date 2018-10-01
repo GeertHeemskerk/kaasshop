@@ -55,12 +55,13 @@ h1{
 .slider{
   display: flex;
   justify-content: center;
-  margin-top: 20%;
+  margin-top: 30%;
 }
 
 .slider div{
-  background-color: black;
+  background: rgba(120, 120, 120, 0.8);
   width: 20px;
   height: 20px;
-  margin: 3px;
+  margin: 8px;
+  border-radius: 10px;
 }
