@@ -343,3 +343,7 @@ template {
 figure{
   margin: 0;
 }
+
+li{
+  display: block;
+}
