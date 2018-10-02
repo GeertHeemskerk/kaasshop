@@ -125,10 +125,27 @@ p{
 }
 
 footer{
+  display: flex;
+  flex-direction: column;
   grid-area: footer;
   background-color: #FACC6B;
   height: 50vh;
   width: 90%;
   margin: 5%;
   color: black;
+}
+
+footer p{
+  text-align: center;
+  flex-grow: 1;
+}
+
+.socialMediaHolder{
+  margin: 0 auto;
+}
+
+.socialMedia{
+  width: 55px;
+  height: 55px;
+  margin: 15px;
 }
