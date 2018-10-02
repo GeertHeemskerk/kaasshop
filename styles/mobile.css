@@ -48,7 +48,7 @@ ul li a{
 .active{
   z-index: 2;
   max-height: 100vh;
-  transition: max-height 0.25s;
+  transition: max-height 0.65s;
 }
 
 main{
@@ -126,7 +126,9 @@ p{
 
 footer{
   grid-area: footer;
-  background-color: white;
+  background-color: #FACC6B;
   height: 50vh;
-  width: 100%;
+  width: 90%;
+  margin: 5%;
+  color: black;
 }
