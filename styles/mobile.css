@@ -11,6 +11,7 @@ body{
     "menu menu menu"
     "main main main"
     "title title title"
+    "footer footer footer"
 }
 
 .link{
@@ -99,4 +100,11 @@ h1{
   height: 20px;
   margin: 8px;
   border-radius: 10px;
+}
+
+footer{
+  grid-area: footer;
+  background-color: white;
+  height: 50vh;
+  width: 100%;
 }
