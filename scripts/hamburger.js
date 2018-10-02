@@ -1,15 +1,17 @@
-document.getElementsByClassName('openMenu')[0].onclick = function(){
-  document.getElementsByClassName("openMenu")[0].style.visibility = "hidden";
-  document.getElementsByTagName("main")[0].style.visibility = "hidden";
+window.onload = function(){
+  var menu = document.getElementById('menu');
+  var closeMenu = document.getElementsByClassName("closeMenu")[0];
+  var openMenu = document.getElementsByClassName('openMenu')[0];
 
-  document.getElementsByClassName("closeMenu")[0].style.visibility = "visible";
-  document.getElementById("menu").style.visibility = "visible";
-}
+  openMenu.onclick = function(){
+    menu.className = "active"
+    closeMenu.style.display = "block";
+    openMenu.style.visibility = "hidden";
+  }
 
-document.getElementsByClassName('closeMenu')[0].onclick = function(){
-  document.getElementsByClassName("openMenu")[0].style.visibility = "visible";
-  document.getElementsByTagName("main")[0].style.visibility = "visible";
-
-  document.getElementsByClassName("closeMenu")[0].style.visibility = "hidden";
-  document.getElementById("menu").style.visibility = "hidden";
+  closeMenu.onclick = function(){
+    closeMenu.style.display = "none";
+    menu.className = "inactive";
+    openMenu.style.visibility = "visible";
+  }
 }
