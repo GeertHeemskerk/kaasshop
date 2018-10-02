@@ -45,7 +45,7 @@ ul li a{
 
 .active{
   z-index: 2;
-  max-height: 70vh;
+  max-height: 100vh;
   transition: max-height 0.25s;
 }
 
