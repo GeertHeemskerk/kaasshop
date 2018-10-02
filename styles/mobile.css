@@ -35,8 +35,6 @@ ul li a{
 .closeMenu{
   width: 36px;
   margin: 20px 20px 45px 20px;
-  max-height: 46px;
-  transition: max-height 0.6s;
 }
 
 .inactive{
@@ -48,7 +46,7 @@ ul li a{
 .active{
   z-index: 2;
   max-height: 100vh;
-  transition: max-height 0.65s;
+  transition: max-height 0.55s;
 }
 
 main{
