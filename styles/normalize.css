@@ -15,7 +15,9 @@ html {
 
 /* Sections
    ========================================================================== */
-
+button{
+  margin: 0px;
+}
 /**
  * Remove the margin in all browsers.
  */
