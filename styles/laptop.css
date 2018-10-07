@@ -41,6 +41,13 @@
     display: none;
   }
 
+  nav ul li:nth-child(2){
+    margin-top: 10px;
+  }
+
+  li{
+    margin-bottom: 0px;
+  }
   .logo{
     display: block;
   }
