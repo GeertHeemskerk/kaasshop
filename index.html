@@ -13,7 +13,7 @@
 	</head>
 	<body>
     <nav id="menu" class="inactive">
-			<img class="closeMenu" src="images/close.svg" alt="close">
+			<img class="closeMenu" src="images/icons/close.svg" alt="close">
       <ul>
         <li><a href="#home">HOME</a></li>
 				<li class="logo"><a href="#home">Kaasspecialist
@@ -34,7 +34,7 @@
       </ul>
     </nav>
     <main>
-    	<img class="openMenu" src="images/menu.svg" alt="menu">
+    	<img class="openMenu" src="images/icons/menu.svg" alt="menu">
       <div class="titleHolder">
         <h1>Kaasspeciaalzaak<br>ED BOELE</h1>
       </div>
@@ -50,7 +50,12 @@
     </main>
 		<div class="content">
 			<figure>
-				<img class="contentImage" src="images/sliderImage5-min.jpeg" alt="Passie voor kaas">
+				<picture>
+					<img class="contentImage" src="images/sliderImage5.jpeg" alt="Passie voor kaas">
+					<source media="(min-width: 361px)" srcset="images/sliderImage5-tablet.jpg">
+					<source media="(min-width: 769px)" srcset="images/sliderImage5-laptop.jpg">
+					<source media="(min-width: 1441px)" srcset="images/sliderImage5-desktop.jpg">
+				</picture>
 			</figure>
 			<h2>Passie voor kaas</h2>
 			<p>Welkom bij Kaasspeciaalzaak Ed Boele in Den Haag. Al een paar keer waren we de beste of bijna-beste kaasspecialist van Nederland en nog steeds draaien we mee in de top. Want wij hebben een passie voor kaas, die wij graag met onze klanten willen delen.
@@ -61,7 +66,12 @@
 		</div>
 		<div class="content">
 			<figure>
-				<img class="contentImage" src="images/sliderImage2.jpg" alt="Passie voor kaas">
+				<picture>
+					<img class="contentImage" src="images/sliderImage2.jpg" alt="Passie voor kaas">
+					<source media="(min-width: 361px)" srcset="images/sliderImage2-tablet.jpg">
+					<source media="(min-width: 769px)" srcset="images/sliderImage2-laptop.jpg">
+					<source media="(min-width: 1441px)" srcset="images/sliderImage2-desktop.jpg">
+				</picture>
 			</figure>
 			<h2>Over boerenkaas</h2>
 			<p>Boerenkaas is kaas, die is gemaakt van melk die direct op de kaasboerderij is verkregen. Deze kaas heeft door zijn ambachtelijke bereidingswijze en rijpingsproces een karakteristieke smaak.<br><br>
@@ -73,14 +83,14 @@
 		<footer>
 			<div class="socialMediaHolder">
 				<p>Neem contact met ons op</p>
-				<a href="mailto:kaasspeciaalzaak@gmail.com" target="_blank"><img class="socialMedia" src="images/mail.svg" alt="email"></a>
-				<a href="tel:0703631819"><img class="socialMedia" src="images/phone.svg" alt="telefoonnummer"></a>
+				<a href="mailto:kaasspeciaalzaak@gmail.com" target="_blank"><img class="socialMedia" src="images/icons/mail.svg" alt="email"></a>
+				<a href="tel:0703631819"><img class="socialMedia" src="images/icons/phone.svg" alt="telefoonnummer"></a>
 			</div>
 			<div class="socialMediaHolder">
 				<p>Volg ons op de voet</p>
-				<a href="https://www.facebook.com/De-KaasspeciaalzaakEd-Boele-1752550148310300/?fref=ts" target="_blank"><img class="socialMedia" src="images/facebook.svg" alt="facebook"></a>
-				<a href="https://goo.gl/maps/AXyzh9FWKc92" target="_blank"><img class="socialMedia" src="images/maps.svg" alt="locatie"></a>
-				<a href="http://twitter.com/#!/EdBoele" target="_blank"><img class="socialMedia" src="images/twitter.svg" alt="twitter"></a>
+				<a href="https://www.facebook.com/De-KaasspeciaalzaakEd-Boele-1752550148310300/?fref=ts" target="_blank"><img class="socialMedia" src="images/icons/facebook.svg" alt="facebook"></a>
+				<a href="https://goo.gl/maps/AXyzh9FWKc92" target="_blank"><img class="socialMedia" src="images/icons/maps.svg" alt="locatie"></a>
+				<a href="http://twitter.com/#!/EdBoele" target="_blank"><img class="socialMedia" src="images/icons/twitter.svg" alt="twitter"></a>
 			</div>
 			<p>&copy;<script>document.write(new Date().getFullYear());</script>, De Kaasspeciaalzaak</p>
 		</footer>

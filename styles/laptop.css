@@ -64,6 +64,10 @@
     margin-top: 100px;
   }
 
+  .contentImage{
+    height: 350px;
+  }
+
   button span {
     cursor: pointer;
     display: inline-block;
